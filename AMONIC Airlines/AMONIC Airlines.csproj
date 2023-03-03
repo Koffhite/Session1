@@ -1,0 +1,122 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>AMONIC_Airlines</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\DS2017_TP09_2_colors%404x.png" />
+    <None Remove="Images\DS2017_TP09_2_colors.png" />
+    <None Remove="Images\DS2017_TP09_2_colors_%402x.png" />
+    <None Remove="Images\DS2017_TP09_2_colors_swatches%404x1.png" />
+    <None Remove="Images\DS2017_TP09_2_colors_with_bg%402x.png" />
+    <None Remove="Images\DS2017_TP09_2_colors_with_bg%404x.png" />
+    <None Remove="Images\DS2017_TP09_2_colors_with_bg.png" />
+    <None Remove="Images\DS2017_TP09_Airplane-Amonic-Single.png" />
+    <None Remove="Images\DS2017_TP09_Airplane-Amonic.png" />
+    <None Remove="Images\DS2017_TP09_black%402x.png" />
+    <None Remove="Images\DS2017_TP09_black%404x.png" />
+    <None Remove="Images\DS2017_TP09_black.png" />
+    <None Remove="Images\DS2017_TP09_color%402x.png" />
+    <None Remove="Images\DS2017_TP09_color%404x.png" />
+    <None Remove="Images\DS2017_TP09_color.png" />
+    <None Remove="Images\DS2017_TP09_color_swatches%404x1.png" />
+    <None Remove="Images\DS2017_TP09_color_swatches.jpg" />
+    <None Remove="Images\DS2017_TP09_mono%402x.png" />
+    <None Remove="Images\DS2017_TP09_mono%404x.png" />
+    <None Remove="Images\DS2017_TP09_mono.png" />
+    <None Remove="Images\DS2017_TP09_mono_swatches%404x1.png" />
+    <None Remove="Images\white%402x.png" />
+    <None Remove="Images\white%404x.png" />
+    <None Remove="Images\white.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\DS2017_TP09_2_colors.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_2_colors@4x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_2_colors_@2x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_2_colors_swatches@4x1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_2_colors_with_bg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_2_colors_with_bg@2x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_2_colors_with_bg@4x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_Airplane-Amonic-Single.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_Airplane-Amonic.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_black.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_black@2x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_black@4x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_color.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_color@2x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_color@4x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_color_swatches.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_color_swatches@4x1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_mono.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_mono@2x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_mono@4x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\DS2017_TP09_mono_swatches@4x1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\white.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\white@2x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\white@4x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

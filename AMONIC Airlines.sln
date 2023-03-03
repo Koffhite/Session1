@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMONIC Airlines", "AMONIC Airlines\AMONIC Airlines.csproj", "{2A324C7D-0290-457B-8438-62614B9EFBCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A324C7D-0290-457B-8438-62614B9EFBCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A324C7D-0290-457B-8438-62614B9EFBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A324C7D-0290-457B-8438-62614B9EFBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A324C7D-0290-457B-8438-62614B9EFBCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E074F9D3-2982-48EC-BCE7-3FCC80B4A7EA}
+	EndGlobalSection
+EndGlobal
